@@ -1,6 +1,11 @@
-str1=input("please enter a string1:")
-str2=input("please enter a string2:")
-if str2 in str1:
-    print("string2 is in string1")
-else:
-    print("string2 is not in string1")
+a=input("enter the string:")
+count_alpha=0
+count_num=0
+for char in a:
+    if char.isalpha():
+        count_alpha+=1
+    elif char.isdigit():
+        count_num +=1
+print(count_alpha)
+print(count_num) 
+print("the right fight")

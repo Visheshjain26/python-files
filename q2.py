@@ -1,4 +1,4 @@
-a=input("please enter a string:")
-
-print("string in upper case:",a.upper())
-print("string in upper case:",a.lower())
+a=int(input("enter the number:"))
+for i in range (1,11):
+    b=a*i
+    print(a,'*',i,'=',b)
